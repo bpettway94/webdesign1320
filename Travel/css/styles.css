@@ -1,0 +1,58 @@
+html{
+    background-color: burlywood;
+}
+
+body{
+    background-color: whitesmoke;
+    width: 800px;
+    margin: 20px auto;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    color: hotpink;
+}
+
+nav{
+    background-color: aquamarine;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+    color: hotpink;
+    font-size:25px;
+    margin:20px;
+}
+
+main{
+    padding: 20px;
+}px
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    color: hotpink;
+}
+
+a{
+    color: hotpink;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3  {
+    color: hotpink;
+    text-align: center;
+}
