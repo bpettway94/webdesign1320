@@ -82,6 +82,14 @@ footer {
     border-radius: 10px;
 }
 
+.single_page {
+    width: 100%;
+}
+
+table img {
+    width: 100%;
+}
+
 .button:hover{
     background-color: aquamarine;
     border-color: blue;
@@ -119,7 +127,7 @@ tr, td {
     }
 
     section {
-        width: 70$;
+        width: 70%;
     }
 
     aside {
@@ -134,9 +142,13 @@ tr, td {
         margin-left: auto;
         margin-right: auto;
     }
+
+    table img {
+        width: 100%;
+    }
 }
 
-@media (min-width 1024px) {
+@media (min-width: 1024px) {
     #container {
         width: 65%;
         margin: 20px auto;
@@ -164,5 +176,9 @@ tr, td {
 
     section img {
         width: 75%;
+    }
+
+    table img {
+        width: 100%;
     }
 }
