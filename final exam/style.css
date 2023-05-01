@@ -1,0 +1,186 @@
+body {
+    background-color: rgb(238, 224, 201);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: beige;
+    text-align: center;
+    font-family: "copperplate", serif;
+}
+
+#container {
+    background-color: burlywood;
+}
+
+nav {
+    background-color: bisque;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 2px solid rgb(144, 137, 133);
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(191, 210, 186);
+    color: rgb(105, 78, 44);
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: rgb(211, 199, 142);
+    color: beige;
+    border-color: rgb(219, 218, 217);
+}
+
+main {
+    padding: 40px;
+}
+
+.col {
+    padding: 10px;
+    border-top: 2px solid rgb(186, 130, 96);
+}
+
+footer {
+    background-color:rgb(77, 49, 22);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 10px;
+    background-color: rgb(199, 215, 161);
+    color: rgb(155, 121, 76);
+    text-decoration: antiquewhite;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(102, 88, 77);
+    border-radius: 10px;
+}
+
+.single_page {
+    width: 100%;
+}
+
+table img {
+    width: 100%;
+}
+
+.button:hover{
+    background-color: rgb(236, 245, 189);
+    border-color: rgb(255, 221, 182);
+}
+
+table{
+    border: rgb(255, 190, 124);
+}
+
+tr, td {
+    border: 4px solid rgb(246, 241, 241);
+}
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a{
+        width: 150px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 2px solid rgb(244, 194, 151);
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid rgb(149, 107, 73);
+    }
+
+    section {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .col img{
+        width: 100%;
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    nav li a {
+        background-color: aliceblue;
+        border: 0;
+    }
+
+    #lower_area {
+        display: flex;
+    }
+
+    .col {
+        border: 1px solid rgb(128, 94, 53);
+        padding: 20px;
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .single_page {
+        width: 100%;
+    }
+
+    section img {
+        width: 90%;
+    }
+
+    table img {
+        width: 100%;
+    }
+}
